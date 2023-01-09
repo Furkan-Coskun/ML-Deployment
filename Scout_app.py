@@ -49,7 +49,7 @@ with col3:
     st.write("")
 
 
-df = pd.read_csv('C:/Users/Asus/Desktop/Project Autoscout MLD/final_scout_not_dummy2.csv')
+df = pd.read_csv('final_scout_not_dummy2.csv')
 
 # Loading the models to make predictions
 final_model = pickle.load(open("C:/Users/Asus/Desktop/Project Autoscout MLD/final_model", "rb"))
