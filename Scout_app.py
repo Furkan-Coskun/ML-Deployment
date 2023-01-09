@@ -52,7 +52,7 @@ with col3:
 df = pd.read_csv('final_scout_not_dummy2.csv')
 
 # Loading the models to make predictions
-final_model = pickle.load(open("C:/Users/Asus/Desktop/Project Autoscout MLD/final_model", "rb"))
+final_model = pickle.load(open("final_model", "rb"))
 
 # User input variables that will be used on predictions
 st.sidebar.title("Please Enter the Features for Auto Scout Model")
